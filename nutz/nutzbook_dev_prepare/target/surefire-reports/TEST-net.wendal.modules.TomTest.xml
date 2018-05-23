@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.wendal.modules.TomTest" time="0.181" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\OftenSoft\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:/JAVA_OK/nutz/nutzbook_dev_prepare"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\JAVA_OK\nutz\nutzbook_dev_prepare"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:/OftenSoft/apache-maven-3.5.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\OftenSoft\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\bin;D:\OftenSoft\Git\mingw64\bin;D:\OftenSoft\Git\usr\local\bin;D:\OftenSoft\Git\usr\bin;D:\OftenSoft\Git\usr\bin;D:\OftenSoft\Git\mingw64\bin;D:\OftenSoft\Git\usr\bin;C:\Users\Administrator\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\ProgramData\ComposerSetup\bin;D:\OftenSoft\Java\jdk1.8.0_162\bin;D:\OftenSoft\apache-maven-3.5.3\bin;D:\OftenSoft\Python27;D:\OftenSoft\Python27\Scripts;D:\OftenSoft\GO\bin;E:\GO_CODE;D:\OftenSoft\TortoiseSVN\bin;D:\OftenSoft\Git\cmd;D:\OftenSoft\phpStudy_2018\PHPTutorial\php\php-7.2.1-nts;%MYSQL_HOME%\bin;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;D:\OftenSoft\Microsoft VS Code\bin;D:\OftenSoft\DockerToolbox;D:\OftenSoft\Git\usr\bin\vendor_perl;D:\OftenSoft\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="D:/OftenSoft/apache-maven-3.5.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="D:/OftenSoft/apache-maven-3.5.3/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:/OftenSoft/apache-maven-3.5.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\OftenSoft\Java\jdk1.8.0_162\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\resources.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\rt.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\jsse.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\jce.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\charsets.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\lib\jfr.jar;D:\OftenSoft\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\OftenSoft\apache-maven-3.5.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test_tom_jerry_create" classname="net.wendal.modules.TomTest" time="0.039">
+    <error message="!Nutz SQL Error: &apos;INSERT INTO t_jerry(name,ct,ut) VALUES(&apos;可可&apos;,&apos;NULL&apos;,&apos;NULL&apos;) &apos;&#10;PreparedStatement: &#10;&apos;INSERT INTO t_jerry(name,ct,ut) VALUES(?,?,?) &apos;&#10;CaseMessage=Unknown column &apos;ct&apos; in &apos;field list&apos;" type="org.nutz.dao.DaoException">org.nutz.dao.DaoException: 
+!Nutz SQL Error: 'INSERT INTO t_jerry(name,ct,ut) VALUES('可可','NULL','NULL') '
+PreparedStatement: 
+'INSERT INTO t_jerry(name,ct,ut) VALUES(?,?,?) '
+CaseMessage=Unknown column 'ct' in 'field list'
+	at net.wendal.modules.TomTest.test_tom_jerry_create(TomTest.java:38)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'ct' in 'field list'
+	at net.wendal.modules.TomTest.test_tom_jerry_create(TomTest.java:38)
+</error>
+    <system-out><![CDATA[2018-05-15 22:36:54,400 org.nutz.ioc.impl.NutIoc.depose(NutIoc.java:255) INFO  - org.nutz.ioc.impl.NutIoc@940584193 is closing. startup date [18-05-15 22:36:54.061]
+2018-05-15 22:36:54,400 org.nutz.ioc.impl.ScopeContext.clear(ScopeContext.java:108) DEBUG - Depose object 'conf' ...
+2018-05-15 22:36:54,401 org.nutz.ioc.impl.ScopeContext.clear(ScopeContext.java:108) DEBUG - Depose object 'dao' ...
+2018-05-15 22:36:54,401 org.nutz.ioc.impl.ScopeContext.clear(ScopeContext.java:108) DEBUG - Depose object 'simpleTest' ...
+2018-05-15 22:36:54,402 org.nutz.ioc.impl.ScopeContext.clear(ScopeContext.java:113) DEBUG - Depose object 'dataSource' ...
+2018-05-15 22:36:54,403 com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1444) INFO  - {dataSource-3} closed
+2018-05-15 22:36:54,403 org.nutz.ioc.impl.NutIoc.depose(NutIoc.java:262) INFO  - org.nutz.ioc.impl.NutIoc@940584193 is deposed. startup date [18-05-15 22:36:54.061]
+2018-05-15 22:36:54,410 org.nutz.resource.Scans.scan(Scans.java:274) DEBUG - Found 2 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
+2018-05-15 22:36:54,411 org.nutz.ioc.loader.json.JsonLoader.<init>(JsonLoader.java:49) DEBUG - loading [dao.js]
+2018-05-15 22:36:54,412 org.nutz.ioc.loader.json.JsonLoader.<init>(JsonLoader.java:49) DEBUG - loading [quartz.js]
+2018-05-15 22:36:54,413 org.nutz.ioc.loader.json.JsonLoader.<init>(JsonLoader.java:57) DEBUG - Loaded 4 bean define from path=[ioc/] --> [scheduler, conf, dao, dataSource]
+2018-05-15 22:36:54,426 org.nutz.resource.Scans.scan(Scans.java:274) DEBUG - Found 23 resource by src( net/wendal/ ) , regex( ^.+[.]class$ )
+2018-05-15 22:36:54,427 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.nutzbook.module.UserModule
+2018-05-15 22:36:54,428 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.nutzbook.module.UserProfileModule
+2018-05-15 22:36:54,429 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.nutzbook.quartz.NutQuartzJobFactory
+2018-05-15 22:36:54,429 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.modules.MasterTest
+2018-05-15 22:36:54,430 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.modules.PetTest
+2018-05-15 22:36:54,430 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.modules.SimpleTest
+2018-05-15 22:36:54,431 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.modules.TomTest
+2018-05-15 22:36:54,432 org.nutz.ioc.loader.annotation.AnnotationIocLoader.addClass(AnnotationIocLoader.java:74) DEBUG - Found @IocBean : class net.wendal.modules.UserTest
+2018-05-15 22:36:54,433 org.nutz.ioc.loader.annotation.AnnotationIocLoader.<init>(AnnotationIocLoader.java:50) INFO  - Found 8 classes in 1 base-packages!
+beans = ["nutQuartzJobFactory", "masterTest", "tomTest", "userTest", "userProfileModule", "userModule", "petTest", "simpleTest"]
+2018-05-15 22:36:54,434 org.nutz.ioc.loader.json.JsonLoader.<init>(JsonLoader.java:40) DEBUG - Loaded 5 bean define from reader --
+[txREPEATABLE_READ, txSERIALIZABLE, txNONE, txREAD_UNCOMMITTED, txREAD_COMMITTED]
+2018-05-15 22:36:54,434 org.nutz.ioc.impl.NutIoc.<init>(NutIoc.java:98) INFO  - NutIoc init begin ...
+2018-05-15 22:36:54,435 org.nutz.ioc.impl.NutIoc.<init>(NutIoc.java:115) INFO  - ... NutIoc init complete
+2018-05-15 22:36:54,435 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'tomTest'<class net.wendal.modules.TomTest>
+2018-05-15 22:36:54,436 org.nutz.ioc.aop.SimpleAopMaker.<init>(SimpleAopMaker.java:79) DEBUG - Load AopConfigure for anno=org.nutz.ioc.aop.Aop by type=org.nutz.ioc.aop.config.impl.AnnotationAopConfigration
+2018-05-15 22:36:54,436 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:177) DEBUG - 	 >> Load definition name=tomTest
+2018-05-15 22:36:54,436 org.nutz.ioc.loader.combo.ComboIocLoader.load(ComboIocLoader.java:161) DEBUG - Found IocObject(tomTest) in AnnotationIocLoader(packages=[net.wendal])
+2018-05-15 22:36:54,437 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:209) DEBUG - 	 >> Make...'tomTest'<class net.wendal.modules.TomTest>
+2018-05-15 22:36:54,437 org.nutz.ioc.aop.impl.DefaultMirrorFactory.getMirror(DefaultMirrorFactory.java:70) DEBUG - Load class net.wendal.modules.TomTest without AOP
+2018-05-15 22:36:54,437 org.nutz.ioc.impl.ScopeContext.save(ScopeContext.java:64) DEBUG - Save object 'tomTest' to [app] 
+2018-05-15 22:36:54,444 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'dao'<interface org.nutz.dao.Dao>
+2018-05-15 22:36:54,444 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:177) DEBUG - 	 >> Load definition name=dao
+2018-05-15 22:36:54,444 org.nutz.ioc.loader.map.MapLoader.load(MapLoader.java:67) DEBUG - Loading define for name=dao
+2018-05-15 22:36:54,445 org.nutz.ioc.loader.combo.ComboIocLoader.load(ComboIocLoader.java:161) DEBUG - Found IocObject(dao) in JsonLoader(paths=[ioc/])
+2018-05-15 22:36:54,446 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:209) DEBUG - 	 >> Make...'dao'<interface org.nutz.dao.Dao>
+2018-05-15 22:36:54,446 org.nutz.ioc.aop.impl.DefaultMirrorFactory.getMirror(DefaultMirrorFactory.java:70) DEBUG - Load class org.nutz.dao.impl.NutDao without AOP
+2018-05-15 22:36:54,446 org.nutz.ioc.impl.ScopeContext.save(ScopeContext.java:64) DEBUG - Save object 'dao' to [app] 
+2018-05-15 22:36:54,447 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'dataSource'<>
+2018-05-15 22:36:54,447 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:177) DEBUG - 	 >> Load definition name=dataSource
+2018-05-15 22:36:54,448 org.nutz.ioc.loader.map.MapLoader.load(MapLoader.java:67) DEBUG - Loading define for name=dataSource
+2018-05-15 22:36:54,449 org.nutz.ioc.loader.combo.ComboIocLoader.load(ComboIocLoader.java:161) DEBUG - Found IocObject(dataSource) in JsonLoader(paths=[ioc/])
+2018-05-15 22:36:54,449 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:209) DEBUG - 	 >> Make...'dataSource'<>
+2018-05-15 22:36:54,450 org.nutz.ioc.aop.impl.DefaultMirrorFactory.getMirror(DefaultMirrorFactory.java:70) DEBUG - Load class com.alibaba.druid.pool.DruidDataSource without AOP
+2018-05-15 22:36:54,450 org.nutz.ioc.impl.ScopeContext.save(ScopeContext.java:64) DEBUG - Save object 'dataSource' to [app] 
+2018-05-15 22:36:54,453 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'conf'<>
+2018-05-15 22:36:54,461 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:177) DEBUG - 	 >> Load definition name=conf
+2018-05-15 22:36:54,462 org.nutz.ioc.loader.map.MapLoader.load(MapLoader.java:67) DEBUG - Loading define for name=conf
+2018-05-15 22:36:54,463 org.nutz.ioc.loader.combo.ComboIocLoader.load(ComboIocLoader.java:161) DEBUG - Found IocObject(conf) in JsonLoader(paths=[ioc/])
+2018-05-15 22:36:54,464 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:209) DEBUG - 	 >> Make...'conf'<>
+2018-05-15 22:36:54,464 org.nutz.ioc.aop.impl.DefaultMirrorFactory.getMirror(DefaultMirrorFactory.java:70) DEBUG - Load class org.nutz.ioc.impl.PropertiesProxy without AOP
+2018-05-15 22:36:54,465 org.nutz.ioc.impl.ScopeContext.save(ScopeContext.java:64) DEBUG - Save object 'conf' to [app] 
+2018-05-15 22:36:54,467 org.nutz.resource.Scans.scan(Scans.java:274) DEBUG - Found 2 resource by src( custom/db.properties ) , regex( ^.+[.]properties$ )
+2018-05-15 22:36:54,468 org.nutz.ioc.impl.PropertiesProxy.setPaths(PropertiesProxy.java:113) DEBUG - load properties from jar:file:/D:/OftenSoft/Maven/m2/repo/cn/enilu/tools/nutzwk-code-generator/1.3.2/nutzwk-code-generator-1.3.2.jar!/custom/db.properties
+2018-05-15 22:36:54,474 org.nutz.ioc.impl.PropertiesProxy.setPaths(PropertiesProxy.java:113) DEBUG - load properties from File[E:\JAVA_OK\nutz\nutzbook_dev_prepare\target\classes\custom\db.properties]
+2018-05-15 22:36:54,476 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'conf'<>
+2018-05-15 22:36:54,477 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'conf'<>
+2018-05-15 22:36:54,478 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'conf'<>
+2018-05-15 22:36:54,478 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'conf'<>
+2018-05-15 22:36:54,487 com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:715) INFO  - {dataSource-4} inited
+2018-05-15 22:36:54,487 org.nutz.ioc.impl.NutIoc.get(NutIoc.java:151) DEBUG - Get 'dataSource'<>
+2018-05-15 22:36:54,488 org.nutz.dao.jdbc.Jdbcs.getExpert(Jdbcs.java:103) INFO  - Get Connection from DataSource for JdbcExpert, if you lock at here, check your database server and configure
+2018-05-15 22:36:54,504 org.nutz.dao.impl.DaoSupport.setDataSource(DaoSupport.java:189) DEBUG - select expert : org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert
+2018-05-15 22:36:54,505 org.nutz.dao.impl.DaoSupport$1.invoke(DaoSupport.java:200) DEBUG - JDBC Driver --> mysql-connector-java-5.1.41 ( Revision: 83c6dc41b96809df81444362933043b20a1d49d5 )
+2018-05-15 22:36:54,505 org.nutz.dao.impl.DaoSupport$1.invoke(DaoSupport.java:201) DEBUG - JDBC Name   --> MySQL Connector Java
+2018-05-15 22:36:54,506 org.nutz.dao.impl.DaoSupport$1.invoke(DaoSupport.java:203) DEBUG - JDBC URL    --> jdbc:mysql://127.0.0.1:3306/nutzbook
+2018-05-15 22:36:54,513 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_client=utf8
+2018-05-15 22:36:54,513 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_connection=utf8
+2018-05-15 22:36:54,514 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_database=utf8
+2018-05-15 22:36:54,514 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_filesystem=binary
+2018-05-15 22:36:54,515 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_results=
+2018-05-15 22:36:54,515 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_server=utf8
+2018-05-15 22:36:54,515 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_set_system=utf8
+2018-05-15 22:36:54,516 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:212) DEBUG - Mysql : character_sets_dir=D:\OftenSoft\mysql-5.7.21-winx64\share\charsets\
+2018-05-15 22:36:54,521 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:219) DEBUG - Mysql : binlog_format=ROW
+2018-05-15 22:36:54,522 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:226) DEBUG - Mysql : database=nutzbook
+2018-05-15 22:36:54,523 org.nutz.dao.impl.jdbc.mysql.MysqlJdbcExpert.checkDataSource(MysqlJdbcExpert.java:232) DEBUG - Mysql : user=root@localhost
+2018-05-15 22:36:54,526 org.nutz.dao.impl.DaoSupport.setDataSource(DaoSupport.java:222) DEBUG - Database info --> MYSQL:[MySQL - 5.7.21-log]
+2018-05-15 22:36:54,531 org.nutz.dao.impl.sql.run.NutDaoExecutor.printSQL(NutDaoExecutor.java:388) DEBUG - RUN 
+2018-05-15 22:36:54,532 org.nutz.dao.impl.sql.run.NutDaoExecutor.printSQL(NutDaoExecutor.java:388) DEBUG - INSERT INTO t_jerry(name,ct,ut) VALUES(?,?,?) 
+    |  1 |    2 |    3 |
+    |----|------|------|
+    | 可可 | NULL | NULL |
+  For example:> "INSERT INTO t_jerry(name,ct,ut) VALUES('可可','NULL','NULL') "
+2018-05-15 22:36:54,536 org.nutz.dao.impl.sql.run.NutDaoExecutor.exec(NutDaoExecutor.java:97) DEBUG - SQLException
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'ct' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2501)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:131)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.nutz.dao.impl.sql.run.NutDaoExecutor._runPreparedStatement(NutDaoExecutor.java:308)
+	at org.nutz.dao.impl.sql.run.NutDaoExecutor.exec(NutDaoExecutor.java:90)
+	at org.nutz.dao.DaoInterceptorChain.doChain(DaoInterceptorChain.java:66)
+	at org.nutz.dao.impl.interceptor.DaoLogInterceptor.filter(DaoLogInterceptor.java:22)
+	at org.nutz.dao.DaoInterceptorChain.doChain(DaoInterceptorChain.java:64)
+	at org.nutz.dao.DaoInterceptorChain.invoke(DaoInterceptorChain.java:139)
+	at org.nutz.dao.impl.sql.run.NutDaoRunner.runCallback(NutDaoRunner.java:158)
+	at org.nutz.dao.impl.sql.run.NutDaoRunner._runWithTransaction(NutDaoRunner.java:104)
+	at org.nutz.dao.impl.sql.run.NutDaoRunner._run(NutDaoRunner.java:88)
+	at org.nutz.dao.impl.sql.run.NutDaoRunner$1.run(NutDaoRunner.java:74)
+	at org.nutz.trans.Trans.exec(Trans.java:174)
+	at org.nutz.dao.impl.sql.run.NutDaoRunner.run(NutDaoRunner.java:72)
+	at org.nutz.dao.impl.DaoSupport.run(DaoSupport.java:245)
+	at org.nutz.dao.impl.DaoSupport._exec(DaoSupport.java:257)
+	at org.nutz.dao.impl.EntityOperator.exec(EntityOperator.java:55)
+	at org.nutz.dao.impl.NutDao.insertWith(NutDao.java:174)
+	at net.wendal.modules.TomTest.test_tom_jerry_create(TomTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.nutz.mock.NutTestRunner.runChild(NutTestRunner.java:33)
+	at org.nutz.mock.NutTestRunner.runChild(NutTestRunner.java:14)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-out>
+    <system-err><![CDATA[Tue May 15 22:36:54 CST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+  </testcase>
+</testsuite>

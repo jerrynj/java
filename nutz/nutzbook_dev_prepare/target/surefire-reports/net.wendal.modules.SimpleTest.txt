@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: net.wendal.modules.SimpleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.95 sec <<< FAILURE! - in net.wendal.modules.SimpleTest
+test_tom_jerry(net.wendal.modules.SimpleTest)  Time elapsed: 0.124 sec  <<< ERROR!
+org.nutz.dao.DaoException: 
+!Nutz SQL Error: 'INSERT INTO t_jerry(name,ct,ut) VALUES('¿É¿É','NULL','NULL') '
+PreparedStatement: 
+'INSERT INTO t_jerry(name,ct,ut) VALUES(?,?,?) '
+CaseMessage=Unknown column 'ct' in 'field list'
+	at net.wendal.modules.SimpleTest.test_tom_jerry(SimpleTest.java:59)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'ct' in 'field list'
+	at net.wendal.modules.SimpleTest.test_tom_jerry(SimpleTest.java:59)
+
