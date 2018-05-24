@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>地区列表</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+</head>
+<body class="container">
+<br/>
+<h1>地区列表</h1>
+<br/><br/>
+<div class="with:80%">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>PID</th>
+            <th>Edit</th>
+            <th>Delete</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr  th:each="vo : ${list}">
+            <th scope="row" th:text="${vo.id}">1</th>
+
+            <td th:text="${vo.name}">neo</td>
+            <td th:text="${vo.pid}">Otto</td>
+            <td><a th:href="@{edit(id=${vo.id})}">edit</a></td>
+            <td><a th:href="@{delete(id=${vo.id})}"  onclick="return confirm('确认是否删除此记录？')"  >delete</a></td>
+           
+        </tr>
+        </tbody>
+    </table>
+    <div th:include="page :: pager" th:remove="tag"></div>
+</div>
+<div class="form-group">
+    <div class="col-sm-2 control-label">
+        <a href="add" th:href="@{add}" class="btn btn-info">add</a>
+    </div>
+</div>
+
+</body>
+</html>
