@@ -1,0 +1,14 @@
+{
+	name : "oauth",
+	version : "3.1.0",
+	base : "net.wendal.nutzbook.oauth",
+	describe : "NutzCN的OAuth模块",
+	menu : [
+		{
+			name : "第三方登录管理",
+			subs : [
+				{name:"基本设置",page:"oauth/basic.html"}
+			]
+		}
+	]
+}

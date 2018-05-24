@@ -1,0 +1,13 @@
+{
+	name : "yvr",
+	version : "3.1.0",
+	base : "net.wendal.nutzbook.yvr",
+	describe : "NutzCN的社区模块",
+	menu : [{
+		name : "论坛管理",
+		subs : [
+			{name:"基本设置", page:"yvr/basic.html"},
+			{name:"帖子管理", page:"yvr/topic.html"}
+		]
+	}]
+}

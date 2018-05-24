@@ -1,0 +1,15 @@
+{
+	name : "beepay",
+	version : "3.1.0",
+	base : "net.wendal.nutzbook.beepay",
+	describe : "NutzCN的支付模块,当前使用BeeCloud",
+	menu : [{
+		name : "支付模块",
+		subs : [
+			{name:"BeeCloud设置", page:"beepay/basic.html"}
+		]
+	}],
+	event : {
+		config_change : ["beePayModule"]
+	}
+}

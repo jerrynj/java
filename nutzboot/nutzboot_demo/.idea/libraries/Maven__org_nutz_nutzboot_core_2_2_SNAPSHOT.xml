@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.nutz:nutzboot-core:2.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutzboot-core/2.2-SNAPSHOT/nutzboot-core-2.2-20180403.071957-136.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutzboot-core/2.2-SNAPSHOT/nutzboot-core-2.2-20180403.071957-136-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutzboot-core/2.2-SNAPSHOT/nutzboot-core-2.2-20180403.071957-136-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

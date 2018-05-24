@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.nutz:nutzboot-starter-swagger:2.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutzboot-starter-swagger/2.2-SNAPSHOT/nutzboot-starter-swagger-2.2-20180403.072010-131.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutzboot-starter-swagger/2.2-SNAPSHOT/nutzboot-starter-swagger-2.2-20180403.072010-131-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutzboot-starter-swagger/2.2-SNAPSHOT/nutzboot-starter-swagger-2.2-20180403.072010-131-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

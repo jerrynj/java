@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.nutz:nutz-plugins-websocket:1.r.66-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutz-plugins-websocket/1.r.66-SNAPSHOT/nutz-plugins-websocket-1.r.66-20180330.130352-40.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutz-plugins-websocket/1.r.66-SNAPSHOT/nutz-plugins-websocket-1.r.66-20180330.130352-40-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nutz/nutz-plugins-websocket/1.r.66-SNAPSHOT/nutz-plugins-websocket-1.r.66-20180330.130352-40-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

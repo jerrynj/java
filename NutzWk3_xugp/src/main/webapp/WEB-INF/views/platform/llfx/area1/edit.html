@@ -1,0 +1,121 @@
+<%
+layout("/layouts/platform.html"){
+%>
+<header class="header navbar bg-white shadow">
+    <div class="btn-group tool-button">
+        <a class="btn btn-primary navbar-btn" href="${base}/platform/llfx/area1" id="goback" data-pjax><i class="ti-angle-left"></i> 返回</a>
+    </div>
+</header>
+
+<div class="content-wrap">
+    <div class="wrapper" style="min-height:500px;">
+        <section class="panel panel-form">
+            <form id="editForm" role="form" class="form-horizontal parsley-form" data-parsley-validate
+                  action="${base}/platform/llfx/area1/editDo" method="post">
+                <input name="id" type="hidden" value="${obj.id}">
+                <div class="row mb10">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="shopid" class="col-sm-2 control-label">预留商城ID</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="shopid" class="form-control" name="shopid" data-parsley-required="true"
+                                       placeholder="预留商城ID" value="${obj.shopid}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="title" class="col-sm-2 control-label">文章标题</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="title" class="form-control" name="title" data-parsley-required="true"
+                                       placeholder="文章标题" value="${obj.title}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="info" class="col-sm-2 control-label">文章简介</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="info" class="form-control" name="info" data-parsley-required="true"
+                                       placeholder="文章简介" value="${obj.info}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="author" class="col-sm-2 control-label">文章作者</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="author" class="form-control" name="author" data-parsley-required="true"
+                                       placeholder="文章作者" value="${obj.author}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="picurl" class="col-sm-2 control-label">标题图</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="picurl" class="form-control" name="picurl" data-parsley-required="true"
+                                       placeholder="标题图" value="${obj.picurl}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="content" class="col-sm-2 control-label">文章内容</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="content" class="form-control" name="content" data-parsley-required="true"
+                                       placeholder="文章内容" value="${obj.content}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="disabled" class="col-sm-2 control-label">是否禁用</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="disabled" class="form-control" name="disabled" data-parsley-required="true"
+                                       placeholder="是否禁用" value="${obj.disabled}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="publishAt" class="col-sm-2 control-label">发布时间</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="publishAt" class="form-control" name="publishAt" data-parsley-required="true"
+                                       placeholder="发布时间" value="${obj.publishAt}" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="location" class="col-sm-2 control-label">排序字段</label>
+                            <div class="col-sm-8">
+                                <input type="text" id="location" class="form-control" name="location" data-parsley-required="true"
+                                       placeholder="排序字段" value="${obj.location}" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="form-group text-center">
+                        <label></label>
+
+                        <div>
+                            <button class="btn btn-primary btn-block btn-lg btn-parsley" data-loading-text="正在提交...">提 交</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+    </div>
+</div>
+<script language="JavaScript">
+    $(document).ready(function () {
+        $('#editForm').ajaxForm({
+            dataType: 'json',
+            beforeSubmit: function (arr, form, options) {
+                form.find("button:submit").button("loading");
+            },
+            success: function (data, statusText, xhr, form) {
+                if (data.code == 0) {
+                    Toast.success(data.msg);
+                    setTimeout(function () {
+                        $("#goback").trigger("click");
+                    }, 1000);
+                } else {
+                    Toast.error(data.msg);
+                }
+                form.find("button:submit").button("reset");
+            }
+        });
+    });
+</script>
+
+
+<%}%>

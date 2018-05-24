@@ -1,0 +1,18 @@
+{
+	name : "weixin",
+	version : "3.1.0",
+	base : "net.wendal.nutzbook.weixin",
+	describe : "NutzCN的微信模块",
+	menu : [
+		{
+			name : "微信管理",
+			subs : [
+				{name:"公众号基本设置",page:"weixin/basic.html"},
+				{name:"微信登录设置",page:"weixin/wxlogin.html"}
+			]
+		}
+	],
+	event : {
+		config_change : ["weixinService"]
+	}
+}
